@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6441844B222830C000DF1E5B /* VehicleInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6441844A222830C000DF1E5B /* VehicleInformation.swift */; };
 		6481F20D21FCA5E50053003F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6481F20C21FCA5E50053003F /* AppDelegate.swift */; };
 		6481F20F21FCA5E50053003F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6481F20E21FCA5E50053003F /* ViewController.swift */; };
 		6481F21221FCA5E50053003F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6481F21021FCA5E50053003F /* Main.storyboard */; };
 		6481F21421FCA5EB0053003F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6481F21321FCA5EB0053003F /* Assets.xcassets */; };
 		6481F21721FCA5EB0053003F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6481F21521FCA5EB0053003F /* LaunchScreen.storyboard */; };
+		64D329C022280B74001D6F16 /* VehicleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D329BF22280B74001D6F16 /* VehicleCollectionViewController.swift */; };
+		64D329C2222818C3001D6F16 /* VehicleInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D329C1222818C3001D6F16 /* VehicleInfoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6481F20921FCA5E50053003F /* Boat-appen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boat-appen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6441844A222830C000DF1E5B /* VehicleInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInformation.swift; sourceTree = "<group>"; };
+		6481F20921FCA5E50053003F /* Test-It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6481F20C21FCA5E50053003F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6481F20E21FCA5E50053003F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6481F21121FCA5E50053003F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6481F21321FCA5EB0053003F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6481F21621FCA5EB0053003F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6481F21821FCA5EB0053003F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D329BF22280B74001D6F16 /* VehicleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCollectionViewController.swift; sourceTree = "<group>"; };
+		64D329C1222818C3001D6F16 /* VehicleInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		6481F20021FCA5E50053003F = {
 			isa = PBXGroup;
 			children = (
-				6481F20B21FCA5E50053003F /* Boat-appen */,
+				6481F20B21FCA5E50053003F /* Test-It */,
 				6481F20A21FCA5E50053003F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +52,33 @@
 		6481F20A21FCA5E50053003F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6481F20921FCA5E50053003F /* Boat-appen.app */,
+				6481F20921FCA5E50053003F /* Test-It.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6481F20B21FCA5E50053003F /* Boat-appen */ = {
+		6481F20B21FCA5E50053003F /* Test-It */ = {
 			isa = PBXGroup;
 			children = (
 				6481F20C21FCA5E50053003F /* AppDelegate.swift */,
 				6481F20E21FCA5E50053003F /* ViewController.swift */,
 				6481F21021FCA5E50053003F /* Main.storyboard */,
+				64D329BF22280B74001D6F16 /* VehicleCollectionViewController.swift */,
+				6441844A222830C000DF1E5B /* VehicleInformation.swift */,
+				64D329C1222818C3001D6F16 /* VehicleInfoCollectionViewCell.swift */,
 				6481F21321FCA5EB0053003F /* Assets.xcassets */,
 				6481F21521FCA5EB0053003F /* LaunchScreen.storyboard */,
 				6481F21821FCA5EB0053003F /* Info.plist */,
 			);
-			path = "Boat-appen";
+			path = "Test-It";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6481F20821FCA5E50053003F /* Boat-appen */ = {
+		6481F20821FCA5E50053003F /* Test-It */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6481F21B21FCA5EB0053003F /* Build configuration list for PBXNativeTarget "Boat-appen" */;
+			buildConfigurationList = 6481F21B21FCA5EB0053003F /* Build configuration list for PBXNativeTarget "Test-It" */;
 			buildPhases = (
 				6481F20521FCA5E50053003F /* Sources */,
 				6481F20621FCA5E50053003F /* Frameworks */,
@@ -79,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Boat-appen";
+			name = "Test-It";
 			productName = "Boat-appen";
-			productReference = 6481F20921FCA5E50053003F /* Boat-appen.app */;
+			productReference = 6481F20921FCA5E50053003F /* Test-It.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6481F20421FCA5E50053003F /* Build configuration list for PBXProject "Boat-appen" */;
+			buildConfigurationList = 6481F20421FCA5E50053003F /* Build configuration list for PBXProject "Test-It" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6481F20821FCA5E50053003F /* Boat-appen */,
+				6481F20821FCA5E50053003F /* Test-It */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6441844B222830C000DF1E5B /* VehicleInformation.swift in Sources */,
+				64D329C022280B74001D6F16 /* VehicleCollectionViewController.swift in Sources */,
+				64D329C2222818C3001D6F16 /* VehicleInfoCollectionViewCell.swift in Sources */,
 				6481F20F21FCA5E50053003F /* ViewController.swift in Sources */,
 				6481F20D21FCA5E50053003F /* AppDelegate.swift in Sources */,
 			);
@@ -284,12 +296,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 448XP8J229;
-				INFOPLIST_FILE = "Boat-appen/Info.plist";
+				INFOPLIST_FILE = "Test-It/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cattis.Boat-appen";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cattis.Test-It";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +314,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 448XP8J229;
-				INFOPLIST_FILE = "Boat-appen/Info.plist";
+				INFOPLIST_FILE = "Test-It/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cattis.Boat-appen";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cattis.Test-It";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6481F20421FCA5E50053003F /* Build configuration list for PBXProject "Boat-appen" */ = {
+		6481F20421FCA5E50053003F /* Build configuration list for PBXProject "Test-It" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6481F21921FCA5EB0053003F /* Debug */,
@@ -326,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6481F21B21FCA5EB0053003F /* Build configuration list for PBXNativeTarget "Boat-appen" */ = {
+		6481F21B21FCA5EB0053003F /* Build configuration list for PBXNativeTarget "Test-It" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6481F21C21FCA5EB0053003F /* Debug */,
